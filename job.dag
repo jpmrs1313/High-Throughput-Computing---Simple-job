@@ -1,0 +1,8 @@
+JOB  Setup submit_split
+JOB  Work1 submit_resize1
+JOB  Work2 submit_resize2
+JOB  Work3 submit_resize3
+JOB  Final submit_join
+
+PARENT Setup CHILD Work1 Work2 Work3
+PARENT Work1 Work2 Work3 CHILD Final

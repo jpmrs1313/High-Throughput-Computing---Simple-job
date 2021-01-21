@@ -1,0 +1,13 @@
+Executable      = join.sh
+Universe        = vanilla
+Error           = error
+Output          = log
+Log             = log
+
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+transfer_input_files = list.txt,resize1.mp4,resize2.mp4,resize3.mp4
+Arguments       =  list.txt resize1.mp4 resize2.mp4 resize3.mp4
+Queue
+
+

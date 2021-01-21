@@ -1,0 +1,12 @@
+Executable      = resize.sh
+Universe        = vanilla
+Error           = error
+Output          = log
+Log             = log
+
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+transfer_input_files = output1.mp4 
+Arguments       =  output1.mp4 resize1.mp4
+Queue
+

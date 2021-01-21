@@ -1,0 +1,12 @@
+Executable      = split.sh
+Universe        = vanilla
+Error           = error
+Output          = log
+Log             = log
+
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+transfer_input_files = medium.mp4
+Arguments       = medium.mp4 
+Queue
+
