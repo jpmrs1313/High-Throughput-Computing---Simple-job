@@ -1,10 +1,8 @@
-# High-Throughput-Computing---Simple-job
-In this repo you can find a set of files that will allow you to submit jobs to a HTC cluster
+# Parallel Video Resizing using HTC Cluster
+Welcome to this repository, where you will find all the necessary components to submit jobs to an HTC cluster and resize a video in parallel. This repository contains the configuration files and scripts to split a video into multiple parts, resize each part on separate machines, and finally join the resized parts back into a single video.
 
-This is an academic work where i have to split a powerfull task in small tasks to run them in parallel with other nodes.
+This repository is part of an academic work, where the goal is to reduce the resolution of a video by dividing the task into smaller, parallelizable tasks. By doing so, we can take advantage of the computational power of multiple machines and speed up the process.
 
-In this work i have to reduce the resolution of a mp4 video. This job is faster if we split the video and resizing the video in different machines in parallel.
+The repository contains the scripts and configuration files needed to run each step of the process on the HTC cluster. Simply follow the instructions in the included files to submit the jobs and start the resizing process.
 
-So i let the config of each task in this repo.
-
-The first task is split the video in three parts, after that are created 3 tasks to resize the video in 3 different machines and the last taks is the join of the resized parts
+By using this repository, you will be able to efficiently resize a video by taking advantage of the parallel processing capabilities of the HTC cluster.
